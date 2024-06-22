@@ -290,7 +290,7 @@ elif choice == "**User Interaction**":
         # Random chọn 1 ID trong danh sách
         user_id = st.text_input("Input ID")
         #user_id = st.text_input("Input ID", value=st.session_state["user_id"])
-        st.write(f"Generated ID: {user_id}")
+        #st.write(f"Generated ID: {user_id}")
 
        
 
